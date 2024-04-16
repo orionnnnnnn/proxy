@@ -13,3 +13,5 @@
 - ```cmd
   docker run -d -p 5555:5555 --restart always -e TZ=Asia/Shanghai --name myProxy myProxy:v1.0.0
   ```
+- 前面5555是代理端口，可以自行修改
+- ip:5555/proxy 获取一个可用的代理
